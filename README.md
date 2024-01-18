@@ -6,6 +6,8 @@ Projekta mērķis ir izstrādāt programmu, kas automātiski iegūst informācij
 ## Izmantotās bibliotēkas
 - **Selenium un Time**
   - Rindiņas `import selenium` un `from selenium import webdriver` Python skriptā, tas norāda, ka skripts izmantos Selenium bibliotēku. Pirms izmantot Selenium, ir nepieciešams to instalēt. To var izdarīt, izmantojot 'pip install selenium'
+  - Selenium Importēšana
+      -'from selenium.webdriver.chrome.service import Service' un 'from selenium.webdriver.common.by import By'
 
 
 ## Programmas struktūra

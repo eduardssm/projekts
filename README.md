@@ -6,8 +6,13 @@ Projekta mērķis ir izstrādāt programmu, kas automātiski iegūst informācij
 ## Izmantotās bibliotēkas
 - **Selenium, Datetime un Time**
   - Rindiņas `import selenium` un `from selenium import webdriver` Python skriptā, tas norāda, ka skripts izmantos Selenium bibliotēku. Pirms izmantot Selenium, ir nepieciešams to instalēt. To var izdarīt, izmantojot pip install selenium'
-  - Selenium Importēšana "from selenium.webdriver.chrome.service import Service" un "from selenium.webdriver.common.by import By"
+    
+  - Rindiņas from selenium.webdriver.chrome.service import Service .
+    
+  - from selenium.webdriver.common.by import By rindiņa ir daļa no Selenium bibliotēkas, kas tiek izmantota Python valodā, lai automatizētu web pārlūkprogrammu darbības. By klase piedāvā dažādas metodes vai stratēģijas, kas palīdz identificēt HTML elementus uz web lapas. Šīs stratēģijas var būt, piemēram, pēc ID, klases, nosaukuma, sākuma vai beigu teksta, linka teksta utt
+    
   - Rindiņas import time Python skriptā norāda, ka skripts izmantos time bibliotēku. Šī bibliotēka nodrošina funkcijas, kas ļauj ar laiku aizkavēt programmas izpildi.
+    
   - Rindiņas from datetime import datetime, timedelta Python skriptā norāda, ka skripts izmantos datetime un timedelta objektus no datetime bibliotēkas. Šī bibliotēka tiek izmantota, lai iegūtu pašreizējo datumu un timedelta, lai to parvēidotu, piemēram, pievieno papildus dienu
 
 ## Programmas struktūra

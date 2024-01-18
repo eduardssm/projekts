@@ -5,8 +5,6 @@ from selenium.webdriver.common.by import By
 import time
 from datetime import datetime, timedelta
 
-
-
 service = Service()
 option = webdriver.ChromeOptions()
 driver = webdriver.Chrome(service=service, options=option)

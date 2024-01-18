@@ -1,7 +1,7 @@
 # Gala darbs-projekts studiju kursā DIP225
 ## Autors-Eduards Muciņš 231RDB206
 ## Projekta Uzdevums
-Projekta mērķis ir izstrādāt programmu, kas automātiski iegūst informāciju par nākamājam RTU lekcijām un nodarbībām, pamatojoties uz manu studiju programmu, kursu un grupu. 
+Projekta mērķis ir izstrādāt programmu, kas automātiski iegūst informāciju par nākamās dienas RTU lekcijām un nodarbībām, pamatojoties uz manu studiju programmu, kursu un grupu. Piemēram, ja šodien ir trešdiena 13.03.2024, tad programma meklēs rītdienas datunmu HTML failā un no tās klases meklēs info pār tās dienas lekcijām.
 
 ## Izmantotās bibliotēkas
 - **Selenium, Datetime un Time**

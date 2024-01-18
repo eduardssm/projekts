@@ -5,9 +5,8 @@ Projekta mērķis ir izstrādāt programmu, kas automātiski iegūst informācij
 
 ## Izmantotās bibliotēkas
 - **Selenium un Time**
-  - source.py izmanto selenium un time bibliotēkas,
-      - selenium izmanto, lai iegūtu informāciju no RTU nodarbību mājaslapas izmantojot HTML "web       scraping"
-      - time bibliotēku izmanto, lai varētu iegūt šodienas datumu, kuru pēc tam pārvērš uz nākāmas dienas datumu, lai varētu ar selenium palīdzību iegūt datus par nākamās dienas nodarbībām
+  - Rindiņas `import selenium` un `from selenium import webdriver` Python skriptā, tas norāda, ka skripts izmantos Selenium bibliotēku. Pirms izmantot Selenium, ir nepieciešams to instalēt. To var izdarīt, izmantojot 'pip install selenium'
+
 
 ## Programmas struktūra
 - Programma sastāv no aptuveni 50 rindām koda, kas ir pēc iespējas īsākais kods ko spēju izveidot.

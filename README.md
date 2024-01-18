@@ -4,10 +4,11 @@
 Projekta mērķis ir izstrādāt programmu, kas automātiski iegūst informāciju par nākamājam RTU lekcijām un nodarbībām, pamatojoties uz manu studiju programmu, kursu un grupu. 
 
 ## Izmantotās bibliotēkas
-- **Selenium un Time**
+- **Selenium, Datetime un Time**
   - Rindiņas `import selenium` un `from selenium import webdriver` Python skriptā, tas norāda, ka skripts izmantos Selenium bibliotēku. Pirms izmantot Selenium, ir nepieciešams to instalēt. To var izdarīt, izmantojot pip install selenium'
   - Selenium Importēšana "from selenium.webdriver.chrome.service import Service" un "from selenium.webdriver.common.by import By"
-
+  - Rindiņas import time Python skriptā norāda, ka skripts izmantos time bibliotēku. Šī bibliotēka nodrošina funkcijas, kas ļauj ar laiku aizkavēt programmas izpildi.
+  - Rindiņas from datetime import datetime, timedelta Python skriptā norāda, ka skripts izmantos datetime un timedelta objektus no datetime bibliotēkas. Šī bibliotēka tiek izmantota, lai iegūtu pašreizējo datumu un timedelta, lai to parvēidotu, piemēram, pievieno papildus dienu
 
 ## Programmas struktūra
 - Programma sastāv no aptuveni 50 rindām koda, kas ir pēc iespējas īsākais kods ko spēju izveidot.

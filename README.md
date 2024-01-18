@@ -9,4 +9,5 @@ Projekta mērķis ir izstrādāt programmu, kas automātiski iegūst informācij
       - selenium izmanto, lai iegūtu informāciju no RTU nodarbību mājaslapas izmantojot HTML "web       scraping"
       - time bibliotēku izmanto, lai varētu iegūt šodienas datumu, kuru pēc tam pārvērš uz nākāmas dienas datumu, lai varētu ar selenium palīdzību iegūt datus par nākamās dienas nodarbībām
 
-##
+## Programmas struktūra
+
